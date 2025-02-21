@@ -1,0 +1,30 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        
+        System.out.println("enter input value to get size");
+        Scanner scan = new Scanner (System.in);
+        int a = scan.nextInt();
+        switch (a){
+            
+          case 29:
+            System.out.println("Small");
+            break;         
+           case 30:
+            System.out.println("Medium");
+            break;
+           case 38:
+            System.out.println("Large");
+            break;
+           case 42:
+            System.out.println("XLarge");
+            break;
+           default:
+           System.out.println("Invalid ");
+        }
+      
+        
+    }
+}
